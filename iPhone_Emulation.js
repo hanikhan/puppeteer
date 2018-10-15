@@ -1,6 +1,8 @@
 const puppeteer = require('puppeteer');
+const devices = require('puppeteer/DeviceDescriptors');
+const iPhone = devices['iPhone 6'];
 
-let config = {
+const config = {
     launchOptions: {
         headless: false
     }
@@ -8,7 +10,7 @@ let config = {
 
 puppeteer.launch(config.launchOptions).then(async browser => {
   const page = await browser.newPage();
-  //Simple test
+  await page.emulate(iPhone)
   await page.goto('https://www.google.com');
   await browser.close();    
 });
