@@ -1,0 +1,14 @@
+{
+  "name": "puppeteer_sample",
+  "version": "1.0.0",
+  "description": "playground for puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Hani Khan",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.9.0"
+  }
+}
