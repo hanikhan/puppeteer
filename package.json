@@ -4,10 +4,11 @@
   "description": "playground for puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "npm run simple_test && npm run iPhone && npm run logAllDevices",
+    "test": "npm run simple_test && npm run iPhone && npm run logAllDevices && npm run controlViewportSize",
     "simple_test": "node test.js",
     "iPhone": "node iPhone_Emulation.js",
-    "logAllDevices": "node puppeteer_logAllDevices.js"
+    "logAllDevices": "node puppeteer_logAllDevices.js",
+    "controlViewportSize": "node controlViewportSize.js"
   },
   "author": "Hani Khan",
   "license": "ISC",
