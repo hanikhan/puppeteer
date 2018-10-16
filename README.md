@@ -1,4 +1,4 @@
-# Project for Basic Puppeteer examples:
+# Project for Basic Chrome Puppeteer examples:
 
 ### Setup
 - Install dependencies : `npm install`
