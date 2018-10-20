@@ -11,3 +11,4 @@
 - Run a test that takes screenshot: `npm run screenshot`
 - Run a test that takes screenshot in headless mode: `npm run headlessScreenshot`
 - Run a script that does headless scraping: `npm run headlessScraping`
+- Run a test that uses chrome flags: `npm run chromeFlags`
