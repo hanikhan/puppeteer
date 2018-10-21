@@ -12,3 +12,6 @@
 - Run a test that takes screenshot in headless mode: `npm run headlessScreenshot`
 - Run a script that does headless scraping: `npm run headlessScraping`
 - Run a test that uses chrome flags: `npm run chromeFlags`
+- Sample for visual regression and loading pages side by side:
+    - `node pageLoad_sideByside.js --no-throttle --no-mobile -u https://www.google.com/ https://www.google.co.uk/`
+    - `node pageLoad_sideByside.js --url http://www.google.com http://www.google.co.uk`
