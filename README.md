@@ -15,3 +15,5 @@
 - Sample for visual regression and loading pages side by side:
     - `node pageLoad_sideByside.js --no-throttle --no-mobile -u https://www.google.com/ https://www.google.co.uk/`
     - `node pageLoad_sideByside.js --url http://www.google.com http://www.google.co.uk`
+- Sample for taking screenshot of particular element and converting it to PDF(headless)
+    - `node element_to_pdf.js`
