@@ -17,3 +17,4 @@
     - `node pageLoad_sideByside.js --url http://www.google.com http://www.google.co.uk`
 - Sample for taking screenshot of particular element and converting it to PDF(headless)
     - `node element_to_pdf.js`
+- Run a script that tests sound: `npm run sound`
