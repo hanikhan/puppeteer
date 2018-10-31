@@ -18,3 +18,4 @@
 - Sample for taking screenshot of particular element and converting it to PDF(headless)
     - `node element_to_pdf.js`
 - Run a script that tests sound: `npm run sound`
+- Run a script for performance/tracing: `npm run devTool_tracing`
