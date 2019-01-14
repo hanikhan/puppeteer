@@ -19,3 +19,4 @@
     - `node element_to_pdf.js`
 - Run a script that tests sound: `npm run sound`
 - Run a script for performance/tracing: `npm run devTool_tracing`
+- Run a script for network stats: `npm run network_monitor`
