@@ -73,7 +73,7 @@ async function launch(position, screen) {
   const y = Math.floor(centerScreenY - (DEFAULT_VIEWPORT.height / 2));
 
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: false,timeout:0,
     args: [
       `--window-size=${DEFAULT_VIEWPORT.width},${DEFAULT_VIEWPORT.height}`,
       CENTER_WINDOWS_ON_SCREEN ? `--window-position=${x},${y}` : `--window-position=${dx},0`,
