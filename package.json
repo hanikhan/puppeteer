@@ -14,7 +14,8 @@
     "screenshot": "node screenshot.js",
     "chromeFlags": "node chromeFlags.js",
     "sound": "node sound.js",
-    "devTool_tracing": "node devTool_tracing.js"
+    "devTool_tracing": "node devTool_tracing.js",
+    "network_monitor": "node network_monitor.js --device 'iPhone X' https://www.google.com"
   },
   "author": "Hani Khan",
   "license": "ISC",
