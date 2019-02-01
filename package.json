@@ -11,6 +11,7 @@
     "controlViewportSize": "node controlViewportSize.js",
     "demoAut": "node demoAut.js",
     "headlessScreenshot": "node screenshot_async_headless.js",
+    "headlessScraping": "node headlessScraping.js",
     "screenshot": "node screenshot.js",
     "chromeFlags": "node chromeFlags.js",
     "sound": "node sound.js",
@@ -20,6 +21,7 @@
   "author": "Hani Khan",
   "license": "ISC",
   "dependencies": {
+    "chrome-har": "^0.10.0",
     "page-weight": "^0.2.2",
     "puppeteer": "^1.9.0",
     "url-exists": "^1.0.3",
